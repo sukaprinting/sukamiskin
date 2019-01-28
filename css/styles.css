@@ -1,0 +1,27 @@
+body{
+  background-color: maroon;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+h1{
+  color: white;
+}
+
+h3{
+  color: white;
+}
+
+hr{
+  border-style: none;
+  border-top-style: inset;
+  border-color: powderblue;
+  border-width: 3px;
+  width: 100%;
+}
+
+p{
+  color: white;
+}
