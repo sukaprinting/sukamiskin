@@ -42,6 +42,45 @@ h1{
   padding: 3% 15%;
 }
 
+.page-title
+{
+	margin-bottom: 40px;
+}
+
+.pg-titl-bdr-btm
+{
+	width: 100px;
+	height: 3px;
+	background-color: #e43c5c;
+}
+
+#portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 0 45px 0;
+  list-style: none;
+  text-align: center;
+}
+
+#portfolio #portfolio-flters li {
+  cursor: pointer;
+  margin: 0 10px;
+  display: inline-block;
+  padding: 10px 22px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #f7f7f7;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+  background: #E43C5C;
+  color: #fff;
+}
+
 #title{
   background-color: #cf3030;
   color: #fff;
