@@ -26,6 +26,12 @@ h1, h2, h3, h4, h5,
 
 }
 
+.title-image {
+  object-fit: contain;
+  width: 70%;
+  height: 70%;
+}
+
 .border-2 {
   border-width: 2px; }
 
@@ -103,12 +109,12 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
 
 .site-section {
-  padding: 2.5em 0; }
+  padding: 2.5em ; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      padding: 1em ; } }
   .site-section.site-section-sm {
-    padding: 4em 0; }
+    padding: 4em ; }
 
 .site-section-heading {
   position: relative;
